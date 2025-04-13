@@ -21,8 +21,11 @@ Return the count
 💻 coding
 
 candles = list(map(int, input().split()))
+
 max_height = max(candles)
+
 count = candles.count(max_height)
+
 print(count)
 
 
